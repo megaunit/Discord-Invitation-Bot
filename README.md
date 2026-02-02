@@ -1,7 +1,10 @@
 
 # Invitation bot
 
-- This bot serves to let a private server admin be able to give some members the ability to invite other users.
-- The Discord native "create invite link" permission allows the user to make as many links and with whatever limits as they want. In private servers, this is not so desired. This make is what make this bot advantagous as it allows the user to create only 1-time-use links, and notifies the admin each time a new link is created. This way, the private server could be monitored better.
-- If the server was a big private server and contains many users, it could be a better idea to log those admin notifications in a database. However, I didn't need to do that in this bot because my server was a small server with ~30 users.
+The native Discord "create invite link" permission allows the user to make as many links with as many capacity as they want. In private servers, this is not so desired. 
+This bot aims to make this process more managable by:
+- allowing specific users (by admin's choice) to create a 1-time-use links only
+- notifing the admin each time a new link is created, enhancing monitored process.
 
+Future work:
+The bot could be expanded by logging notifications into a database, making it more suitable for bigger private servers. I didn't need this as privately notifing the admin works better for my small private server.
